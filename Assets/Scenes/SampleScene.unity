@@ -577,14 +577,11 @@ MonoBehaviour:
   musicSource: {fileID: 1072540238}
   sfxSource: {fileID: 760174864}
   masterMixer: {fileID: 24100000, guid: 78223d573bfbe9341a9dbfac6ae1e522, type: 2}
-  backgroundClip: {fileID: 0}
-  click: {fileID: 0}
-  loose: {fileID: 0}
-  coin: {fileID: 0}
-  hurt: {fileID: 0}
-  dead: {fileID: 0}
-  horn: {fileID: 0}
-  drift: {fileID: 0}
+  backgroundClip: {fileID: 8300000, guid: d3a24189ec69cb845acb0b09c9bd7fb2, type: 3}
+  click: {fileID: 8300000, guid: e722ed55abecd1341af28fcb13ab0b1c, type: 3}
+  loose: {fileID: 8300000, guid: 567836b7bb318c5488ddddf925bf7fb3, type: 3}
+  hurt: {fileID: 8300000, guid: d6546f15f78ecae4d83edf13240c4438, type: 3}
+  smack: {fileID: 8300000, guid: 58967c3c01e133343a25600a7051e68a, type: 3}
 --- !u!1 &1393293869
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,7 +705,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.625
+  orthographic size: 4.6025105
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

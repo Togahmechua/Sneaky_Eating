@@ -14,6 +14,11 @@ public class Swatter : MonoBehaviour
     {
         anim.Play(CacheString.TAG_Attack_Swatter);
     }
+    
+    public void PlaySound()
+    {
+        AudioManager.Ins.PlaySFX(AudioManager.Ins.smack);
+    }
 
     private void TakeDamge()
     {
