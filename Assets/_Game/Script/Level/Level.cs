@@ -7,6 +7,8 @@ public class Level : MonoBehaviour
     [SerializeField] private CameraAnchor[] camAnchor;
     [SerializeField] private Canvas cv;
 
+    public Swatter swatter;
+
     private void OnEnable()
     {
         Camera cam = Camera.main;
@@ -16,6 +18,6 @@ public class Level : MonoBehaviour
 
     private void Start()
     {
-        UIManager.Ins.mainCanvas.RefreshTimer();
+        UIManager.Ins.mainCanvas.ResetUI();
     }
 }

@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22713168f5c91e94f8bfbe2d2470702b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: {fileID: 4465076968270174441, guid: c190862b343014a4e8490b304c52a4b6, type: 3}
+  level: {fileID: 3262425147824407934, guid: c190862b343014a4e8490b304c52a4b6, type: 3}
   curLevel: {fileID: 0}
 --- !u!1 &1359990521
 GameObject:
@@ -708,7 +708,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.3803124
+  orthographic size: 5.625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -737,7 +737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wireColor: {r: 1, g: 1, b: 1, a: 1}
-  UnitsSize: 19.13
+  UnitsSize: 20
   constraint: 0
   camera: {fileID: 1482972463}
 --- !u!114 &1482972465
